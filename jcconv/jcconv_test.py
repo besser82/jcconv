@@ -6,22 +6,22 @@ from jcconv import *
 class JcconvTest(unittest.TestCase):
     def testKana(self):
         # hira => kata, half
-        text1 = u'あいうえおがぎぐげごぱぴぷぺぽ'
-        self.assertEqual(hira2kata(text1), u'アイウエオガギグゲゴパピプペポ')
-        self.assertEqual(hira2half(text1), u'ｱｲｳｴｵｶﾞｷﾞｸﾞｹﾞｺﾞﾊﾟﾋﾟﾌﾟﾍﾟﾎﾟ')
+        text1 = 'あいうえおがぎぐげごぱぴぷぺぽ'
+        self.assertEqual(hira2kata(text1), 'アイウエオガギグゲゴパピプペポ')
+        self.assertEqual(hira2half(text1), 'ｱｲｳｴｵｶﾞｷﾞｸﾞｹﾞｺﾞﾊﾟﾋﾟﾌﾟﾍﾟﾎﾟ')
         text2 = 'にほんごしょりはめんどくさい'
         self.assertEqual(hira2kata(text2), 'ニホンゴショリハメンドクサイ')
         self.assertEqual(hira2half(text2), 'ﾆﾎﾝｺﾞｼｮﾘﾊﾒﾝﾄﾞｸｻｲ')
 
         # kata => hira, half
-        text1 = u'ナゼカサンシュルイモモジガアル'
-        self.assertEqual(kata2hira(text1), u'なぜかさんしゅるいももじがある')
-        self.assertEqual(kata2half(text1), u'ﾅｾﾞｶｻﾝｼｭﾙｲﾓﾓｼﾞｶﾞｱﾙ')
+        text1 = 'ナゼカサンシュルイモモジガアル'
+        self.assertEqual(kata2hira(text1), 'なぜかさんしゅるいももじがある')
+        self.assertEqual(kata2half(text1), 'ﾅｾﾞｶｻﾝｼｭﾙｲﾓﾓｼﾞｶﾞｱﾙ')
 
         # half => hira, kata
-        text1 = u'ｿｺﾃﾞｿｳｺﾞﾍﾝｶﾝｷﾉｳｶﾞﾋﾂﾖｳﾆﾅﾙ'
-        self.assertEqual(half2hira(text1), u'そこでそうごへんかんきのうがひつようになる')
-        self.assertEqual(half2kata(text1), u'ソコデソウゴヘンカンキノウガヒツヨウニナル')
+        text1 = 'ｿｺﾃﾞｿｳｺﾞﾍﾝｶﾝｷﾉｳｶﾞﾋﾂﾖｳﾆﾅﾙ'
+        self.assertEqual(half2hira(text1), 'そこでそうごへんかんきのうがひつようになる')
+        self.assertEqual(half2kata(text1), 'ソコデソウゴヘンカンキノウガヒツヨウニナル')
 
     def testWideHalf(self):
         # wide => half

@@ -2,6 +2,9 @@
 jcconv, Japanese Characters CONVerter
 *************************************
 
+.. image:: https://travis-ci.org/taichino/jcconv.svg :target: https://travis-ci.org/taichino/jcconv
+.. image:: https://coveralls.io/repos/taichino/jcconv/badge.svg?service=github :target: https://coveralls.io/github/taichino/jcconv
+
 jcconv, Japanese Characters CONVerter, interconvert hiragana, katakana, half-width kana.
 This module also treat 'half/wide number', 'half/wide alphabet'.
 

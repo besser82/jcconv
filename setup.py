@@ -15,7 +15,6 @@ if __name__ == '__main__':
     packages         = ('jcconv',),
     name             = 'jcconv',
     version          = '0.2.3',
-    py_modules       = ['jcconv', 'jcconv_test'],
     description      = 'jcconv "JapaneseCharacterCONVerter", interconvert hiragana, katakana, halfwidth kana',
     long_description = long_description,
     author           = 'Matsumoto Taichi',

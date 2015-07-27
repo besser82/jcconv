@@ -1,3 +1,6 @@
+[run]
+source =
+    jcconv
 [report]
 exclude_lines =
     pragma: no cover
@@ -6,6 +9,5 @@ omit =
     */python?.?/*
     */pypy/*
     */pypy-?.?.?/*
+    */pypy-?.?.?+dfsg/*
     .eggs/*
-source =
-    jcconv

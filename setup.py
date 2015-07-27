@@ -8,6 +8,7 @@ import os
 with codecs.open(os.path.join('README.rst'), encoding='utf-8') as f:
     long_description = f.read().strip()
 
+
 if __name__ == '__main__':
   # build distribution package
   setup(

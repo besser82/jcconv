@@ -9,7 +9,6 @@ python:
 
 install:
   - pip install coveralls
-  - pip install .
 
 script:
   - coverage run setup.py test

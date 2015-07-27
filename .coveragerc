@@ -7,3 +7,5 @@ omit =
     */pypy/*
     */pypy-?.?.?/*
     .eggs/*
+source =
+    jcconv

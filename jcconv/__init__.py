@@ -1,6 +1,5 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
-"""
+u"""
    jcconv, Japanese Characters CONVerter, interconvert hiragana, katakana, half-width kana.
    This module also treat 'half/wide number', 'half/wide alphabet'.
 

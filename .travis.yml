@@ -9,11 +9,10 @@ python:
 
 install:
   - pip install coveralls
-  - pip install pytest-cov
   - pip install .
 
 script:
-  - py.test --cov-report term --cov jcconv jcconv/jcconv_test.py
+  - coverage run setup.py test
 
 after_success:
   - coveralls

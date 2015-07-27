@@ -1,6 +1,5 @@
 [run]
-source =
-    jcconv
+source = jcconv
 [report]
 exclude_lines =
     pragma: no cover

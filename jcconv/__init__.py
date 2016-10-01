@@ -28,7 +28,7 @@ u"""
 
    Since 0.2.0, check_hira, check_kata, check_half functions were added.
    you can check if string consists of characters you specified.
-   
+
    IMPOTANT: In current version, this works only with utf-8 encoding.
 
 
@@ -40,7 +40,7 @@ u"""
        >>> print kata2hira('カタカナ')     # katakana to hiragana
        かたかな
        >>> print half2hira('ﾊﾝｶｸｶﾀｶﾅ')      # half-width kana to hiragana
-       はんかくかたかな       
+       はんかくかたかな
        >>> print half2wide('hello jcconv') # half-width alphabet to wide-width
        ｈｅｌｌｏ ｊｃｃｏｎｖ
        >>> print wide2half('ＷＩＤＥ')     # wide-width alphabet to half-width

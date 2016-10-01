@@ -35,7 +35,7 @@ with codecs.open(os.path.join('README.rst'), encoding='utf-8') as f:
 setup(
     packages         = ['jcconv'],
     name             = 'jcconv',
-    version          = '0.2.3',
+    version          = '0.2.4',
     description      = 'jcconv "JapaneseCharacterCONVerter", interconvert hiragana, katakana, halfwidth kana',
     long_description = long_description,
     author           = 'Matsumoto Taichi',

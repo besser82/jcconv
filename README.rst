@@ -9,6 +9,9 @@ This module also treats 'half/wide number', 'half/wide alphabet'.
 Since v0.2.0, the check_hira, check_kata, check_half functions were added.
 You can check if a string consists of the characters you specified.
 
+Since 0.3.0, support for Python 2.x was removed, and the configuration
+files for setuptools were updated to reflect recents standards.
+
 IMPORTANT: In the current version, this module is tested to work with
            utf-8 encoding, only.
 

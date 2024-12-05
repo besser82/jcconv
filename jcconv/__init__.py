@@ -7,6 +7,9 @@
     Since v0.2.0, the check_hira, check_kata, check_half functions were added.
     You can check if a string consists of the characters you specified.
 
+    Since v0.3.0, the support for Python 2.x was removed, and the configuration
+    files for setuptools were updated to reflect recents standards.
+
     IMPORTANT: In the current version, this module is tested to work with
                utf-8 encoding, only.
 
@@ -26,7 +29,7 @@
 """
 
 __author__  = "Matsumoto Taichi"
-__version__ = "0.2.3"
+__version__ = "0.3.0"
 __license__ = "MIT License"
 
 from .jcconv import *

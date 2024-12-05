@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jcconv"
+requires-python = ">=3"
+authors = [
+    {name = "Matsumoto Taichi", email = "taichino@gmail.com"}
+]
+maintainers = [
+    {name = "Björn Esser", email = "besser82@fedoraproject.org"}
+]
+description = "JapaneseCharacterCONVerter"
+license = {text = "MIT License"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+keywords = [
+    "japanese converter",
+    "hiragana",
+    "katakana",
+    "half-width kana"
+]
+dynamic = ["readme", "version"]
+
+[tool.setuptools]
+packages = ["jcconv"]
+py-modules = ["jcconv", "jcconv_test"]
+include-package-data = true
+license-files = ["LICENSE.txt"]
+
+[tool.setuptools.dynamic]
+version = {attr = "jcconv.__version__"}
+readme = {file = ["README.rst"], content-type = "text/x-rst"}

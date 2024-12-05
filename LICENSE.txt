@@ -2,6 +2,7 @@ Copyright (c) 2009-2012, Matsumoto Taichi <taichino@gmail.com>
 Copyright (c) 2014,      Garrett Hyde <github@garretthyde.com>
 Copyright (c) 2015,	 Juan Moreno <morenosan@gmail.com>
 Copyright (c) 2015,	 Alex Willmer <alex@moreati.org.uk>
+Copyright (c) 2024,      Björn Esser <besser82@fedoraproject.org>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
